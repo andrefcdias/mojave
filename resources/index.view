@@ -2,7 +2,9 @@
   <section x="50%" y="50">
     <circle r="30" fill="gray" />
     <circle r="28" fill="black" />
-    <circle cx="8" r="20" fill="white" />
+    <g id="moon">
+      <circle r="28" fill="white" />
+    </g>
   </section>
   <g id="hours" pointer-events="visible" transform="translate(50%,50%)">
     <image x="$-90" y="$-135" width="180" height="180" href="hand.png" />
